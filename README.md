@@ -1,4 +1,4 @@
-# ![BANNER](https://photos.app.goo.gl/ctTnwahn7q38tuF57)
+# ![BANNER](Images/one-piece-nakamas-anime-monkey-d-luffy-wallpaper-preview.jpg)
 - 👋 Hi, I’m @prateek11rai
 - 👀 I’m interested in open source
 - 🌱 I’m currently learning android development
