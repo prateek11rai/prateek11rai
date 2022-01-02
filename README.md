@@ -1,4 +1,4 @@
-# ![BANNER](Images/one-piece-nakamas-anime-monkey-d-luffy-wallpaper-preview.jpg)
+# ![BANNER](Images/sanji wallpaper.jpg)
 - 👋 Hi, I’m @prateek11rai
 - 👀 I’m interested in open source
 - 🌱 I’m currently learning android development
