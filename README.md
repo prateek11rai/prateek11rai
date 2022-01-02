@@ -1,4 +1,4 @@
-# ![BANNER](Images/My BANNER_2.jpg)
+# Hi there 👋 I'm Prateek Rai
 - 👋 Hi, I’m @prateek11rai
 - 👀 I’m interested in open source
 - 🌱 I’m currently learning android development
