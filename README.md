@@ -9,6 +9,7 @@
  <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="Images/linkedin-logo-png-1837.png" alt="LinkedIn" height="80" style="vertical-align:top; margin:4px"></a>
  <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="Images/logo-gmail-9983.png" alt="Email me" height="80" style="vertical-align:top; margin:4px"></a>
  <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="Images/logo-instagram-png-2449.png" alt="Instagram" height="90" style="vertical-align:top; margin:4px"></a>
+ <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="Images/2038730.png" alt="Codepen" height="90" style="vertical-align:top; margin:4px"></a>
 </p>
 
 <br />
