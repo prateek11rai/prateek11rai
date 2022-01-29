@@ -10,12 +10,14 @@
  <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="Images/logo-gmail-9983.png" alt="Email me" height="80" style="vertical-align:top; margin:4px"></a>
  <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="Images/logo-instagram-png-2449.png" alt="Instagram" height="90" style="vertical-align:top; margin:4px"></a>
  <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="Images/2038730.png" alt="Codepen" height="90" style="vertical-align:top; margin:4px"></a>
+ <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="Images/twitterlogo.png" alt="Twitter" height="80" style="vertical-align:top; margin:4px"></a>
 </p>
 
 <br />
 
 ## My Projects : 
-1. <a href="https://github.com/prateek11rai/Group_Chat_App_Project#readme" target="_blank">Group Chat App on Android with Text to Voice and Voice to Text feature</a>
+1. <a href="https://github.com/prateek11rai/Group_Chat_App_Project#readme" target="_blank">Group Chat App on Android with Text to Voice and Voice to Text feature.</a>
+2. <a href="https://github.com/prateek11rai/twitter-reply-bot#readme" target="_blank">Twitter bot written in python which replies to tweets that mention the bot account.</a>
 
 
 
