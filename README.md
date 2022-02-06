@@ -8,10 +8,10 @@
 ## ✉️ Find me on:
 
 <p align="center">
- <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="Images/linkedin-logo-png-1837.png" alt="LinkedIn" height="78.5" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="Images/linkedin-logo-png-1837.png" alt="LinkedIn" height="73.5" style="vertical-align:top; margin:4px"></a>
  <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="Images/logo-gmail-9983.png" alt="Email me" height="75" style="vertical-align:top; margin:4px"></a>
  <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="Images/insta-logo-png.png" alt="Instagram" height="70" style="vertical-align:top; margin:4px"></a>
- <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="Images/2038730.png" alt="Codepen" height="80" style="vertical-align:top; margin:4px"></a>
+ <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="Images/codepen-png_logo.png" alt="Codepen" height="73" style="vertical-align:top; margin:4px"></a>
  <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="Images/twitterlogo.png" alt="Twitter" height="70" style="vertical-align:top; margin:4px"></a>
 </p>
 
@@ -27,7 +27,7 @@
 
 ## GitHub Analytics
 
-![Prateek's GitHub stats](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true) &nbsp; ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact)
+![Prateek's GitHub stats](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true)  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact)
 <!---
 prateek11rai/prateek11rai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
