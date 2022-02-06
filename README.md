@@ -1,5 +1,7 @@
 # Hi there 👋 I'm Prateek Rai
 
+[![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai)
+
 ## 🎓 I'm a BE - Computer Science student at Thapar University
 * 💡  I like to explore new technologies and develop software solutions and quick hacks.
 * 🌱  I'm on track for learning more about Data Science, Android Development, and Machine Learning.
@@ -25,7 +27,7 @@
 
 <br/>
 
-## GitHub Analytics
+## GitHub Analytics :
 
 ![Prateek's GitHub stats](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true)  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact)
 <!---
