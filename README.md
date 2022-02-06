@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Prateek Rai
 
-[![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai)
+[![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet)
 
 ## 🎓 I'm a BE - Computer Science student at Thapar University
 * 💡  I like to explore new technologies and develop software solutions and quick hacks.
@@ -10,11 +10,11 @@
 ## ✉️ Find me on:
 
 <p align="center">
- <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="Images/linkedin-logo-png-1837.png" alt="LinkedIn" height="73.5" style="vertical-align:top; margin:4px"></a>
- <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="Images/logo-gmail-9983.png" alt="Email me" height="75" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="Images/insta-logo-png.png" alt="Instagram" height="70" style="vertical-align:top; margin:4px"></a>
- <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="Images/codepen-png_logo.png" alt="Codepen" height="73" style="vertical-align:top; margin:4px"></a>
- <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="Images/twitterlogo.png" alt="Twitter" height="70" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="50" style="vertical-align:top; margin:4px"></a>
+ <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" height="50" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="50" style="vertical-align:top; margin:4px"></a>
+ <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen" height="50" style="vertical-align:top; margin:4px"></a>
+ <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" height="50" style="vertical-align:top; margin:4px"></a>
 </p>
 
 <br />
@@ -29,7 +29,7 @@
 
 ## GitHub Analytics :
 
-![Prateek's GitHub stats](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true)  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact)
+![Prateek's GitHub stats](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true) &nbsp; ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact)
 <!---
 prateek11rai/prateek11rai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
