@@ -35,8 +35,9 @@
 ## :space_invader: My Projects : 
 
 1. <a href="https://github.com/prateek11rai/Group_Chat_App_Project#readme" target="_blank">Group Chat App on Android with Text to Voice and Voice to Text feature.</a>
-2. <a href="https://github.com/prateek11rai/twitter-reply-bot#readme" target="_blank">Twitter bot written in python which replies to tweets that mention the bot account.</a>
-3. <a href="https://github.com/prateek11rai/russia-alcohol-dashboard#readme" target="_blank">Python Data analysis Dashboard on Alcohol consumption in Russia from 1998 to 2016.</a>
+2. <a href="https://github.com/prateek11rai/Gitrep_Scorer#readme" target="_blank">GitRep Scorer : A github repository scorer.</a>
+3. <a href="https://github.com/prateek11rai/twitter-reply-bot#readme" target="_blank">Twitter bot written in python which replies to tweets that mention the bot account.</a>
+4. <a href="https://github.com/prateek11rai/russia-alcohol-dashboard#readme" target="_blank">Python Data analysis Dashboard on Alcohol consumption in Russia from 1998 to 2016.</a>
 
 <br/>
 
