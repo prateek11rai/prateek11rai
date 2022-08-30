@@ -40,9 +40,9 @@
 
 <br/>
 
-## :mechanical_arm: GitHub Analytics :
+<!-- ## :mechanical_arm: GitHub Analytics :
 
-![Prateek's GitHub stat](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true) &nbsp; ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact)
+![Prateek's GitHub stat](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true) &nbsp; ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact) -->
 <!---
 prateek11rai/prateek11rai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
