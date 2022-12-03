@@ -27,6 +27,7 @@
  <a href="https://www.hackerrank.com/prateekrai360" target="_blank"> <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank" height="40" style="vertical-align:top; margin:4px"></a>
  <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen" height="40" style="vertical-align:top; margin:4px"></a>
  <a href="https://auth.geeksforgeeks.org/user/prateek11rai/profile" target="_blank"> <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://leetcode.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="Leetcode" height="40" style="vertical-align:top; margin:4px"></a>
 </p>
 
 <br />
