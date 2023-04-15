@@ -2,6 +2,10 @@
 
 [![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet)
 
+<p align="center">
+ <img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/sanji.gif" alt="HI" height="300" style="vertical-align:top; margin:4px">
+</p>
+
 ## 🎓 I'm a BE - Computer Science student at Thapar University
 * 💡  I like to explore new technologies and develop software solutions and quick hacks.
 * 🌱  I'm on track for learning more about Data Science, Android Development, and Machine Learning.
