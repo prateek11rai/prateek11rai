@@ -6,22 +6,9 @@
  <img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/sanji.gif" alt="HI" height="300" style="vertical-align:top; margin:4px">
 </p>
 
-## 🎓 I'm a BE - Computer Science student at Thapar University
-* 💡  I like to explore new technologies and develop software solutions and quick hacks.
-* 🌱  I'm on track for learning more about Data Science, Android Development, and Machine Learning.
-* 💬  Feel free to reach out to me for some interesting discussion.
-
-## ✉️ Find me on :
-
-<p align="center">
- <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.facebook.com/prateek.rai.10441/" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" height="40" style="vertical-align:top; margin:4px"></a>
-</p>
-
-<br />
+## 🎓 I'm a Computer Science and Engineering Graduate
+* 💡  College : Thapar Institute Of Engineering and Technology
+* 💡  Grade : 8.84/10 CGPA
 
 ## 🧰 Coding Profiles : 
 
@@ -46,6 +33,19 @@
 
 <br/>
 
+
+
+## ✉️ Find me on :
+
+<p align="center">
+ <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.facebook.com/prateek.rai.10441/" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" height="40" style="vertical-align:top; margin:4px"></a>
+</p>
+
+<br />
 <!-- ## :mechanical_arm: GitHub Analytics :
 
 ![Prateek's GitHub stat](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true) &nbsp; ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact) -->
