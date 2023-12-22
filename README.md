@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Prateek Rai
+<img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/Github%20Banner.png" alt="Hi there 👋, I'm Prateek Rai">
 
 [![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet)
 
