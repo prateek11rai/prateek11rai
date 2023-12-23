@@ -2,11 +2,6 @@
 
 [![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet)
 
-<!---
-<p align="center">
- <img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/sanji.gif" alt="HI" height="300" style="vertical-align:top; margin:4px">
-</p>
---->
 
 ## 🎓 I'm a Computer Science and Engineering Graduate
 * 💡  College : Thapar Institute Of Engineering and Technology
@@ -48,6 +43,13 @@
 </p>
 
 <br />
+
+
+<p align="center">
+ <img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/sanji.gif" alt="HI" height="300" style="vertical-align:top; margin:4px">
+</p>
+
+
 <!-- ## :mechanical_arm: GitHub Analytics :
 
 ![Prateek's GitHub stat](https://github-readme-stats.vercel.app/api?username=prateek11rai&theme=tokyonight&show_icons=true) &nbsp; ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prateek11rai&theme=tokyonight&layout=compact) -->
