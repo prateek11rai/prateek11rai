@@ -1,13 +1,13 @@
-<img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/Github%20Banner.png" alt="Hi there 👋, I'm Prateek Rai">
+![Hi there 👋, I'm Prateek Rai](Images/Github%20Banner.png)
 
 [![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet)
 
-
 ## 🎓 I'm a Computer Science and Engineering Graduate
+
 * 💡  College : Thapar Institute Of Engineering and Technology
 * 💡  Grade : 8.84/10 CGPA
 
-## 🧰 Coding Profiles : 
+## 🧰 Coding Profiles
 
 <p align="center">
  <a href="https://www.codechef.com/users/prateekrai360" target="_blank"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" height="40" style="vertical-align:top; margin:4px"></a>
@@ -20,8 +20,7 @@
 
 <br />
 
-
-## :space_invader: My Projects : 
+## :space_invader: My Projects
 
 1. <a href="https://github.com/prateek11rai/Group_Chat_App_Project#readme" target="_blank">Group Chat App on Android with Text to Voice and Voice to Text feature.</a>
 2. <a href="https://github.com/prateek11rai/DocAid#reademe" target="_blank">IoT wearable device made using Arduino and sensors along with complete hospital management support dashboard.</a>
@@ -31,9 +30,7 @@
 
 <br/>
 
-
-
-## ✉️ Find me on :
+## ✉️ Find me on
 
 <p align="center">
  <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" style="vertical-align:top; margin:4px"></a>
@@ -47,9 +44,8 @@
 
 
 <p align="center">
- <img src="https://github.com/prateek11rai/prateek11rai/blob/main/Images/sanji.gif" alt="HI" height="300" style="vertical-align:top; margin:4px">
+ <img src="./Images/sanji.gif" alt="HI" height="300" style="vertical-align:top; margin:4px">
 </p>
-
 
 <!-- ## :mechanical_arm: GitHub Analytics :
 
