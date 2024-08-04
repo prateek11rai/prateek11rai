@@ -7,17 +7,6 @@
 * 💡  College : Thapar Institute Of Engineering and Technology
 * 💡  Grade : 8.84/10 CGPA
 
-## 🧰 Coding Profiles
-
-<p align="center">
- <a href="https://www.codechef.com/users/prateekrai360" target="_blank"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.kaggle.com/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.hackerrank.com/prateekrai360" target="_blank"> <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://auth.geeksforgeeks.org/user/prateek11rai/profile" target="_blank"> <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://leetcode.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="Leetcode" height="40" style="vertical-align:top; margin:4px"></a>
-</p>
-
 <br />
 
 ## :space_invader: My Projects
@@ -29,6 +18,37 @@
 5. <a href="https://github.com/prateek11rai/russia-alcohol-dashboard#readme" target="_blank">Python Data analysis Dashboard on Alcohol consumption in Russia from 1998 to 2016.</a>
 
 <br/>
+
+## 💻 Work Github
+
+1. <div style="display: flex; align-items: center; justify-content: space-between;">
+      <a href="https://byjus.com/" target="_blank">
+        <img src="./Images/byjus_badge.svg" alt="BYJU'S" height="40" style="vertical-align: middle;">
+      </a>
+      <span style="flex: 1; margin-left: 10px;">Github account: <a href="https://github.com/byjus-prateek">https://github.com/byjus-prateek</a></span>
+      <span>3rd Jan, 2023 - 1st Apr, 2024</span>
+   </div>
+
+2. <div style="display: flex; align-items: center; justify-content: space-between;">
+      <a href="https://atlan.com/" target="_blank">
+        <img src="./Images/atlan_badge.svg" alt="ATLAN" height="40" style="vertical-align: middle;">
+      </a>
+      <span style="flex: 1; margin-left: 10px;">Github account: <a href="https://github.com/prateekrai-atlan">https://github.com/prateekrai-atlan</a></span>
+      <span>2nd Apr, 2024 - Preset</span>
+   </div>
+
+<br/>
+
+## 🧰 Coding Profiles
+
+<p align="center">
+ <a href="https://www.codechef.com/users/prateekrai360" target="_blank"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.kaggle.com/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.hackerrank.com/prateekrai360" target="_blank"> <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://auth.geeksforgeeks.org/user/prateek11rai/profile" target="_blank"> <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" height="40" style="vertical-align:top; margin:4px"></a>
+ <a href="https://leetcode.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="Leetcode" height="40" style="vertical-align:top; margin:4px"></a>
+</p>
 
 ## ✉️ Find me on
 
