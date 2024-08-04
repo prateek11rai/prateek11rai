@@ -1,9 +1,0 @@
-<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
-  <!-- Rectangle Background -->
-  <rect width="200" height="80" fill="#0033A0" />
-  
-  <!-- Text -->
-  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="30" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">
-    ATLAN
-  </text>
-</svg>

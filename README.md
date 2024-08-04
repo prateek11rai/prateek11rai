@@ -21,21 +21,7 @@
 
 ## 💻 Work Github
 
-1. <div style="display: flex; align-items: center; justify-content: space-between;">
-      <a href="https://byjus.com/" target="_blank">
-        <img src="./Images/byjus_badge.svg" alt="BYJU'S" height="40" style="vertical-align: middle;">
-      </a>
-      <span style="flex: 1; margin-left: 10px;">Github account: <a href="https://github.com/byjus-prateek">https://github.com/byjus-prateek</a></span>
-      <span>3rd Jan, 2023 - 1st Apr, 2024</span>
-   </div>
-
-2. <div style="display: flex; align-items: center; justify-content: space-between;">
-      <a href="https://atlan.com/" target="_blank">
-        <img src="./Images/atlan_badge.svg" alt="ATLAN" height="40" style="vertical-align: middle;">
-      </a>
-      <span style="flex: 1; margin-left: 10px;">Github account: <a href="https://github.com/prateekrai-atlan">https://github.com/prateekrai-atlan</a></span>
-      <span>2nd Apr, 2024 - Preset</span>
-   </div>
+<img src="./Images/work_timeline.svg" alt="Work Timeline" style="vertical-align: middle;">
 
 <br/>
 
