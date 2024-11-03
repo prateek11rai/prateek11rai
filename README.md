@@ -18,35 +18,40 @@
         <li>    
             <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
             <b>Work : </b>
+            <br/>
             <ul>
                 <li>Data Engineer <a href="https://byjus.com/">@Atlan</a></li>
                     <ul>
                         <li>Date : 02 April, 2024 - Present</li>
                         <li>Company Github Account : <a href="https://github.com/prateekrai-atlan">https://github.com/prateekrai-atlan</a></li>
-                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=prateekrai-atlan&theme=tokyonight&hide_border=true" width="450">
+                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=prateekrai-atlan&theme=tokyonight&hide_border=true" width="400">
                     </ul>
+                <br/>
                 <li>Member of Technical Staff - 1 <a href="https://atlan.com/">@Byju's</a></li>
                     <ul>
                         <li>Date : 03 January, 2023 - 01 April, 2024</li>
                         <li>Company Github Account : <a href="https://github.com/byjus-prateek">https://github.com/byjus-prateek</a></li>
-                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=byjus-prateek&theme=tokyonight&hide_border=true" width="450">
+                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=byjus-prateek&theme=tokyonight&hide_border=true" width="400">
                     </ul>
             </ul>
         </li>
+        <br/>
         <li>
             <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30">
             <b>Education : </b>
+            <br/>
             <ul>
                 <li>B.Tech from <a href="https://www.thapar.edu/">Thapar University, Patiala, India</a></li>
-                <ul>
-                    <li>Grade : 8.84 / 10 (CGPA)</li>
-                    <li>Subject : Computer Science and Engineering</li>
-                </ul>
+                    <ul>
+                        <li>Grade : 8.84 / 10 (CGPA)</li>
+                        <li>Subject : Computer Science and Engineering</li>
+                    </ul>
+                <br/>
                 <li>High School from <a href="https://apsambala.edu.in/">Army Public School, Ambala Cantt, India</a></li>
-                <ul>
-                    <li>Grade : 94.2 %</li>
-                    <li>Subject : Physics, Chemistry, Mathematics, English and Computer</li>
-                </ul>
+                    <ul>
+                        <li>Grade : 94.2 %</li>
+                        <li>Subject : Physics, Chemistry, Mathematics, English and Computer</li>
+                    </ul>
             </ul>
         </li>
     </ul>
