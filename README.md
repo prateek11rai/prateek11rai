@@ -1,11 +1,56 @@
-![Hi there 👋, I'm Prateek Rai](Images/Github%20Banner.png)
+# Hi there 👋, I'm Prateek Rai
 
-[![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet)
+<img align='right' src="Images/sanji_pfp_round.png" width="230">
 
-## 🎓 I'm a Computer Science and Engineering Graduate
+<!-- [![Github](https://img.shields.io/github/followers/prateek11rai?label=Follow&style=social)](https://github.com/prateek11rai) &nbsp; ![views](https://komarev.com/ghpvc/?username=prateek11rai&color=blueviolet) -->
 
-* 💡  College : Thapar Institute Of Engineering and Technology
-* 💡  Grade : 8.84/10 CGPA
+<p align="left">
+ <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" height="30" style="vertical-align:top; margin:4px"></a>
+ <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email me" height="30" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" height="30" style="vertical-align:top; margin:4px"></a>
+ <a href="https://www.facebook.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook" height="30" style="vertical-align:top; margin:4px"></a>
+ <a href="https://x.com/Prateek11Rai" target="_blank"> <img src="https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white" alt="Twitter" height="30" style="vertical-align:top; margin:4px"></a>
+ <a href="mailto:prateek11rai@protonmail.com" target="_blank"> <img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff" alt="Use ProtonMail" height="30" style="vertical-align:top; margin:4px"></a>
+</p>
+
+<p>
+    <ul>
+        <li>    
+            <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+            <b>Work : </b>
+            <ul>
+                <li>Data Engineer <a href="https://byjus.com/">@Atlan</a></li>
+                    <ul>
+                        <li>Date : 02 April, 2024 - Present</li>
+                        <li>Company Github Account : <a href="https://github.com/prateekrai-atlan">https://github.com/prateekrai-atlan</a></li>
+                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=prateekrai-atlan&theme=tokyonight&hide_border=true" width="450">
+                    </ul>
+                <li>Member of Technical Staff - 1 <a href="https://atlan.com/">@Byju's</a></li>
+                    <ul>
+                        <li>Date : 03 January, 2023 - 01 April, 2024</li>
+                        <li>Company Github Account : <a href="https://github.com/byjus-prateek">https://github.com/byjus-prateek</a></li>
+                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=byjus-prateek&theme=tokyonight&hide_border=true" width="450">
+                    </ul>
+            </ul>
+        </li>
+        <li>
+            <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30">
+            <b>Education : </b>
+            <ul>
+                <li>B.Tech from <a href="https://www.thapar.edu/">Thapar University, Patiala, India</a></li>
+                <ul>
+                    <li>Grade : 8.84 / 10 (CGPA)</li>
+                    <li>Subject : Computer Science and Engineering</li>
+                </ul>
+                <li>High School from <a href="https://apsambala.edu.in/">Army Public School, Ambala Cantt, India</a></li>
+                <ul>
+                    <li>Grade : 94.2 %</li>
+                    <li>Subject : Physics, Chemistry, Mathematics, English and Computer</li>
+                </ul>
+            </ul>
+        </li>
+    </ul>
+</p>
 
 <br />
 
@@ -19,12 +64,6 @@
 
 <br/>
 
-## 💻 Work Github
-
-<img src="./Images/work_timeline.svg" alt="Work Timeline" style="vertical-align: middle;">
-
-<br/>
-
 ## 🧰 Coding Profiles
 
 <p align="center">
@@ -34,16 +73,6 @@
  <a href="https://codepen.io/prateek11rai" target="_blank"> <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen" height="40" style="vertical-align:top; margin:4px"></a>
  <a href="https://auth.geeksforgeeks.org/user/prateek11rai/profile" target="_blank"> <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" height="40" style="vertical-align:top; margin:4px"></a>
  <a href="https://leetcode.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="Leetcode" height="40" style="vertical-align:top; margin:4px"></a>
-</p>
-
-## ✉️ Find me on
-
-<p align="center">
- <a href="https://www.linkedin.com/in/prateek-rai-48597b1ab/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="mailto:prateek11rai@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.instagram.com/prateek11rai/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://www.facebook.com/prateek.rai.10441/" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="40" style="vertical-align:top; margin:4px"></a>
- <a href="https://twitter.com/Prateek11Rai" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" height="40" style="vertical-align:top; margin:4px"></a>
 </p>
 
 <br />
