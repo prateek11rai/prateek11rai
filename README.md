@@ -38,7 +38,8 @@
         </li>
         <br/>
         <li>
-            <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30">
+            <!-- <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"> -->
+            :mortar_board:
             <b>Education : </b>
             <br/>
             <ul>
