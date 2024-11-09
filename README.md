@@ -21,14 +21,14 @@
             <b>Work : </b>
             <br/>
             <ul>
-                <li>Data Engineer <a href="https://byjus.com/">@Atlan</a></li>
+                <li>Data Engineer <a href="https://atlan.com/">@Atlan</a></li>
                     <ul>
                         <li>Date : 02 April, 2024 - Present</li>
                         <li>Company Github Account : <a href="https://github.com/prateekrai-atlan">https://github.com/prateekrai-atlan</a></li>
                         <img src="https://github-readme-streak-stats.herokuapp.com/?user=prateekrai-atlan&theme=tokyonight&hide_border=true" width="400">
                     </ul>
                 <br/>
-                <li>Member of Technical Staff - 1 <a href="https://atlan.com/">@Byju's</a></li>
+                <li>Member of Technical Staff - 1 <a href="https://byjus.com/">@Byju's</a></li>
                     <ul>
                         <li>Date : 03 January, 2023 - 01 April, 2024</li>
                         <li>Company Github Account : <a href="https://github.com/byjus-prateek">https://github.com/byjus-prateek</a></li>
