@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
   <!-- Terminal background -->
-  <rect width="100%" height="100%" fill="#1e1e1e"/>
-  <rect x="10" y="10" width="780" height="480" rx="15" fill="#2d2d2d"/>
+  <rect x="10" y="10" width="780" height="380" rx="15" fill="#2d2d2d"/>
   
   <!-- Terminal window controls -->
   <circle cx="30" cy="30" r="10" fill="#ff5f56"/>
@@ -46,22 +45,22 @@
   <text x="400" y="175" fill="#00ff00" font-family="monospace" font-size="14">Location</text>
   <text x="500" y="175" fill="#ffffff" font-family="monospace" font-size="14">Kolkata, India</text>
   
-  <!-- <text x="400" y="200" fill="#00ff00" font-family="monospace" font-size="14">Occupation</text>
-  <text x="500" y="200" fill="#ffffff" font-family="monospace" font-size="14">Software Developer</text>
+  <text x="400" y="200" fill="#00ff00" font-family="monospace" font-size="14">Education</text>
+  <text x="500" y="200" fill="#ffffff" font-family="monospace" font-size="14">B.Tech - CSE @Thapar</text>
   
-  <text x="400" y="225" fill="#00ff00" font-family="monospace" font-size="14">Education</text>
-  <text x="500" y="225" fill="#ffffff" font-family="monospace" font-size="14">Computer Science</text>
+  <text x="400" y="225" fill="#00ff00" font-family="monospace" font-size="14">Occupation</text>
+  <text x="500" y="225" fill="#ffffff" font-family="monospace" font-size="14">Engineer @Atlan</text>
   
-  <text x="400" y="250" fill="#00ff00" font-family="monospace" font-size="14">Languages</text>
-  <text x="500" y="250" fill="#ffffff" font-family="monospace" font-size="14">Python, JavaScript, Java</text>
+  <text x="400" y="250" fill="#00ff00" font-family="monospace" font-size="14">Email</text>
+  <text x="500" y="250" fill="#ffffff" font-family="monospace" font-size="14">prateek11rai@protonmail.com</text>
   
-  <text x="400" y="275" fill="#00ff00" font-family="monospace" font-size="14">Frameworks</text>
-  <text x="500" y="275" fill="#ffffff" font-family="monospace" font-size="14">React, Node.js, Django</text>
+  <text x="400" y="275" fill="#00ff00" font-family="monospace" font-size="14">Github</text>
+  <text x="500" y="275" fill="#0066cc" font-family="monospace" font-size="14">github.com/prateek11rai</text>
   
-  <text x="400" y="300" fill="#00ff00" font-family="monospace" font-size="14">Tools</text>
-  <text x="500" y="300" fill="#ffffff" font-family="monospace" font-size="14">Git, Docker, AWS</text>
+  <text x="400" y="300" fill="#00ff00" font-family="monospace" font-size="14">LinkedIn</text>
+  <text x="500" y="300" fill="#0066cc" font-family="monospace" font-size="14">linkedin.com/in/prateek11rai</text>
   
-  <text x="400" y="325" fill="#00ff00" font-family="monospace" font-size="14">Interests</text>
+  <!-- <text x="400" y="325" fill="#00ff00" font-family="monospace" font-size="14">Interests</text>
   <text x="500" y="325" fill="#ffffff" font-family="monospace" font-size="14">ML, Web Dev, Open Source</text>
   
   <text x="400" y="350" fill="#00ff00" font-family="monospace" font-size="14">GitHub</text>
