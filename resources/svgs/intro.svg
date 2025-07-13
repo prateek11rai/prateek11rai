@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Terminal background -->
+  <rect width="100%" height="100%" fill="#1e1e1e"/>
+  <rect x="10" y="10" width="780" height="480" rx="15" fill="#2d2d2d"/>
+  
+  <!-- Terminal window controls -->
+  <circle cx="30" cy="30" r="10" fill="#ff5f56"/>
+  <circle cx="60" cy="30" r="10" fill="#ffbd2e"/>
+  <circle cx="90" cy="30" r="10" fill="#27c93f"/>
+  <text x="120" y="35" fill="#9e9e9e" font-family="monospace" font-size="16">prateek11rai</text>
+  
+  <!-- Command prompt (into) -->
+  <text x="20" y="70" fill="#ffffff" font-family="monospace" font-size="16">$ say hi!</text>
+  
+  <!-- ASCII Art - Waving Hand (left side) -->
+  <text x="30" y="100" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⣠⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣄⠀⠀⠀⠀</text>
+  <text x="30" y="110" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠸⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣇⠀⠀⠀</text>
+  <text x="30" y="120" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⢀⣤⣤⣼⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣾⣿⣿⣿⣿⣿⣿⣷⣶⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣤⣤⡀</text>
+  <text x="30" y="130" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⢀⣴⡞⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣦⡀⠀⠀⠀⠀⢀⣴⣶⣿⣿⣿⣿⣿⣿⣿</text>
+  <text x="30" y="140" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠙⠿⣿⡿⠏⢿⣿⣿⣿⣿⣦⣀⠀⣴⣿⠟⣤⡿⢁⣿⢛⣿⣿⣿⣿⣿⣿⣿⣿⡈⢿⣤⡙⣿⣦⡀⢀⣰⣿⣿⣿⣿⡿⠙⢿⣿⠿⠋</text>
+  <text x="30" y="150" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⠃⠺⠛⠟⠻⠛⠓⠛⠛⠛⠛⠛⠛⠛⠛⠛⠟⠛⠟⠆⠟⠛⠚⠟⠳⠘⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="160" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⡏⠀⡀⠂⠌⠀⠌⠠⠁⠌⠠⠁⠌⠠⠁⠌⠐⡀⠡⠀⠂⠈⠐⠀⢂⠐⠀⢸⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="170" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⣀⣁⣐⣈⣀⣀⣐⣀⣀⣂⣐⣀⣈⣀⣂⣀⣐⣀⣂⣁⣀⣁⣂⣀⣁⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀</text>
+  <text x="30" y="180" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠇⠀⠀⠀</text>
+  <text x="30" y="190" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⡿⠋⠉⠛⠻⣿⣿⣿⣿⣿⣿⠟⠉⠉⠛⠿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="200" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⠁⠀⠀⠀⠀⠀⠹⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="210" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⠀⠀⠀⠀⠀⠀⢠⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="220" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢻⣿⣦⣀⣀⣀⣠⣴⣿⡿⠿⣿⣷⣄⣀⣀⣀⣤⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="230" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣇⠀⠀⣨⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="240" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⢰⣶⣬⣍⢙⣛⠛⠙⠋⠙⣉⡉⣭⣴⣾⡄⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="250" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡇⣍⡛⠿⠏⣷⣿⣿⣿⢸⣿⣿⣧⢿⠿⠟⣁⢻⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="260" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⡇⠾⣿⣷⣆⣤⣭⣭⣍⢨⣭⣭⣥⠐⣶⣿⡟⢸⣿⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="270" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢠⣴⣾⣿⣦⣼⣿⣿⣿⣿⠟⠃⣷⣬⣙⡛⠻⠿⣿⣿⢸⣿⡿⠿⢘⣋⣥⣶⠘⠻⣿⣿⣿⣿⣷⣴⣾⣿⣶⡄⠀⠀⠀⠀</text>
+  <text x="30" y="280" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢺⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⢻⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⡏⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀</text>
+  <text x="30" y="290" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠙⠛⢻⣿⣿⣿⣿⡆⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⢠⣿⣿⣿⣿⡟⠛⠋⠁⠀⠀⠀⠀</text>
+  <text x="30" y="300" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠈⠿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠁⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="310" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠚⠋⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  
+  <!-- System Information (right side) -->
+  <text x="400" y="100" fill="#00ff00" font-family="monospace" font-size="16" font-weight="bold">Hi, visitor!</text>
+  <text x="400" y="125" fill="#ffffff" font-family="monospace" font-size="14">─────────────────────────────</text>
+  
+  <text x="400" y="150" fill="#00ff00" font-family="monospace" font-size="14">Name</text>
+  <text x="500" y="150" fill="#ffffff" font-family="monospace" font-size="14">Prateek Rai</text>
+  
+  <text x="400" y="175" fill="#00ff00" font-family="monospace" font-size="14">Location</text>
+  <text x="500" y="175" fill="#ffffff" font-family="monospace" font-size="14">Kolkata, India</text>
+  
+  <!-- <text x="400" y="200" fill="#00ff00" font-family="monospace" font-size="14">Occupation</text>
+  <text x="500" y="200" fill="#ffffff" font-family="monospace" font-size="14">Software Developer</text>
+  
+  <text x="400" y="225" fill="#00ff00" font-family="monospace" font-size="14">Education</text>
+  <text x="500" y="225" fill="#ffffff" font-family="monospace" font-size="14">Computer Science</text>
+  
+  <text x="400" y="250" fill="#00ff00" font-family="monospace" font-size="14">Languages</text>
+  <text x="500" y="250" fill="#ffffff" font-family="monospace" font-size="14">Python, JavaScript, Java</text>
+  
+  <text x="400" y="275" fill="#00ff00" font-family="monospace" font-size="14">Frameworks</text>
+  <text x="500" y="275" fill="#ffffff" font-family="monospace" font-size="14">React, Node.js, Django</text>
+  
+  <text x="400" y="300" fill="#00ff00" font-family="monospace" font-size="14">Tools</text>
+  <text x="500" y="300" fill="#ffffff" font-family="monospace" font-size="14">Git, Docker, AWS</text>
+  
+  <text x="400" y="325" fill="#00ff00" font-family="monospace" font-size="14">Interests</text>
+  <text x="500" y="325" fill="#ffffff" font-family="monospace" font-size="14">ML, Web Dev, Open Source</text>
+  
+  <text x="400" y="350" fill="#00ff00" font-family="monospace" font-size="14">GitHub</text>
+  <text x="500" y="350" fill="#0066cc" font-family="monospace" font-size="14">github.com/prateek11rai</text>
+  
+  <text x="400" y="375" fill="#00ff00" font-family="monospace" font-size="14">LinkedIn</text>
+  <text x="500" y="375" fill="#0066cc" font-family="monospace" font-size="14">linkedin.com/in/prateek11rai</text>
+  
+  <text x="400" y="400" fill="#00ff00" font-family="monospace" font-size="14">Status</text>
+  <text x="500" y="400" fill="#00ff00" font-family="monospace" font-size="14">Available for opportunities</text> -->
+  
+  <!-- Cursor blink effect -->
+  <text x="20" y="370" fill="#ffffff" font-family="monospace" font-size="16">$ </text>
+  <rect x="35" y="355" width="2" height="20" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
