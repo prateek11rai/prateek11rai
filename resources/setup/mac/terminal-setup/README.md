@@ -12,7 +12,7 @@ One-script setup for a fully configured Mac terminal environment.
 | **Neofetch** | `brew install neofetch` | Default (auto-generated on first run) |
 | **FiraCode Nerd Font** | `brew install --cask font-fira-code-nerd-font` | — |
 
-Shell configs (`.zshrc`, `.zprofile`) are copied from this repo.
+Starship shell init is appended to `~/.zshrc` if not already present. Homebrew handles `.zprofile` automatically.
 
 ## Prerequisites
 
@@ -37,28 +37,23 @@ The script is **idempotent** — safe to re-run. It skips already-installed pack
 3. **Verify tmux** — Open `tmux`, confirm `Ctrl-a` is the prefix
 4. **Run neofetch** — Should display system info
 
-## Config Details
+## Corporate MDM (Manual)
 
-### Shell Configs
-- **`.zshrc`** — Starship init, pyenv, pnpm, editor, PATH entries
-- **`.zprofile`** — Homebrew shellenv, Go PATH
+On corporate laptops with Netskope MDM, manually add the following SSL certificate exports to `~/.zshrc`:
 
-### Work-Specific (Commented Out)
-The `.zshrc` includes commented-out blocks for:
-- **Atlan work aliases** (`patlan`, `vcluster`, `argopm`)
-- **Heracles Go env vars** (`GO111MODULE`, `GOPRIVATE`)
-
-Uncomment these on work machines as needed.
-
-### Corporate MDM (Auto-Detected)
-If a Netskope MDM certificate is detected at `/Library/Application Support/ns_cert/nscacert_combined.pem`, the script automatically uncomments the SSL certificate exports in `.zshrc`.
+```bash
+export AWS_CA_BUNDLE="/Library/Application Support/ns_cert/nscacert_combined.pem"
+export CURL_CA_BUNDLE="/Library/Application Support/ns_cert/nscacert_combined.pem"
+export SSL_CERT_FILE="/Library/Application Support/ns_cert/nscacert_combined.pem"
+export GIT_SSL_CAPATH="/Library/Application Support/ns_cert/nscacert_combined.pem"
+export REQUESTS_CA_BUNDLE="/Library/Application Support/ns_cert/nscacert_combined.pem"
+export NODE_EXTRA_CA_CERTS="/Library/Application Support/ns_cert/nscacert_combined.pem"
+```
 
 ## Backups
 
 Existing configs are backed up before overwriting:
 ```
-~/.zshrc                    -> ~/.zshrc.backup.20260228_143000
-~/.zprofile                 -> ~/.zprofile.backup.20260228_143000
 ~/.config/starship.toml     -> ~/.config/starship.toml.backup.20260228_143000
 ~/.config/tmux/tmux.conf    -> ~/.config/tmux/tmux.conf.backup.20260228_143000
 ```

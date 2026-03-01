@@ -54,40 +54,22 @@ install_formula "tmux"
 install_formula "neofetch"
 install_cask "font-fira-code-nerd-font"
 
-# ─── Step 3: Shell Configs ───────────────────────────────────────────────────
-info "Setting up shell configs..."
-
-backup_if_exists "$HOME/.zshrc"
-cp "$CONFIGS_DIR/zshrc" "$HOME/.zshrc"
-ok "Copied zshrc -> ~/.zshrc"
-
-backup_if_exists "$HOME/.zprofile"
-cp "$CONFIGS_DIR/zprofile" "$HOME/.zprofile"
-ok "Copied zprofile -> ~/.zprofile"
-
-# Auto-detect Netskope MDM cert and uncomment SSL exports
-NETSKOPE_CERT="/Library/Application Support/ns_cert/nscacert_combined.pem"
-if [ -f "$NETSKOPE_CERT" ]; then
-  info "Netskope MDM cert detected — enabling SSL exports in .zshrc"
-  sed -i '' '/^# --- Corporate: Netskope MDM ---$/,/^$/{
-    s/^# \(export [A-Z_]*BUNDLE=\)/\1/
-    s/^# \(export SSL_CERT_FILE=\)/\1/
-    s/^# \(export GIT_SSL_CAPATH=\)/\1/
-    s/^# \(export NODE_EXTRA_CA_CERTS=\)/\1/
-  }' "$HOME/.zshrc"
-  ok "Netskope SSL exports uncommented"
-else
-  ok "No Netskope cert found — SSL exports left commented"
-fi
-
-# ─── Step 4: Starship ────────────────────────────────────────────────────────
-info "Setting up Starship config..."
+# ─── Step 3: Starship ────────────────────────────────────────────────────────
+info "Setting up Starship..."
 mkdir -p "$HOME/.config"
 backup_if_exists "$HOME/.config/starship.toml"
 starship preset nerd-font-symbols -o "$HOME/.config/starship.toml"
 ok "Starship nerd-font-symbols preset applied"
 
-# ─── Step 5: Tmux + TPM ─────────────────────────────────────────────────────
+if grep -q 'starship init zsh' "$HOME/.zshrc" 2>/dev/null; then
+  ok "Starship init already in ~/.zshrc"
+else
+  echo '' >> "$HOME/.zshrc"
+  echo 'eval "$(starship init zsh)"' >> "$HOME/.zshrc"
+  ok "Added Starship init to ~/.zshrc"
+fi
+
+# ─── Step 4: Tmux + TPM ──────────────────────────────────────────────────────
 info "Setting up Tmux..."
 mkdir -p "$HOME/.config/tmux"
 backup_if_exists "$HOME/.config/tmux/tmux.conf"
@@ -105,11 +87,11 @@ info "Installing tmux plugins..."
 "$HOME/.tmux/plugins/tpm/bin/install_plugins"
 ok "Tmux plugins installed"
 
-# ─── Step 6: Neofetch ────────────────────────────────────────────────────────
+# ─── Step 5: Neofetch ────────────────────────────────────────────────────────
 info "Neofetch setup..."
 ok "Neofetch installed — default config will auto-generate on first run"
 
-# ─── Step 7: Summary ────────────────────────────────────────────────────────
+# ─── Step 6: Summary ─────────────────────────────────────────────────────────
 echo ""
 printf "\033[1;32m✔ Terminal setup complete!\033[0m\n"
 echo ""
@@ -118,7 +100,4 @@ echo "  1. Set your terminal font to 'FiraCode Nerd Font' (or any Nerd Font)"
 echo "  2. Run: source ~/.zshrc"
 echo "  3. Open tmux and verify prefix (Ctrl-a) works"
 echo "  4. Run: neofetch"
-echo ""
-echo "Optional:"
-echo "  • Uncomment work aliases in ~/.zshrc if on a work machine"
 echo ""
