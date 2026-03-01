@@ -88,16 +88,43 @@ info "Installing tmux plugins..."
 ok "Tmux plugins installed"
 
 # ─── Step 5: Neofetch ────────────────────────────────────────────────────────
-info "Neofetch setup..."
-ok "Neofetch installed — default config will auto-generate on first run"
+info "Setting up Neofetch..."
+mkdir -p "$HOME/.config/neofetch"
+backup_if_exists "$HOME/.config/neofetch/config.conf"
+cp "$CONFIGS_DIR/neofetch.conf" "$HOME/.config/neofetch/config.conf"
+cp "$CONFIGS_DIR/neofetch-ascii.txt" "$HOME/.config/neofetch/custom-ascii.txt"
+ok "Neofetch config and custom ASCII art applied"
 
-# ─── Step 6: Summary ─────────────────────────────────────────────────────────
+# ─── Step 6: Terminal Profile ────────────────────────────────────────────────
+TERMINAL_PROFILE="$CONFIGS_DIR/SanjiBasic.terminal"
+PROFILE_NAME="Basic"
+
+info "Importing Terminal profile..."
+open "$TERMINAL_PROFILE"
+sleep 1
+
+osascript <<EOF
+tell application "Terminal"
+  set default settings to settings set "$PROFILE_NAME"
+  -- close the window opened by the import
+  set allWindows to id of every window
+  repeat with wID in allWindows
+    try
+      close (every window whose id is wID)
+    end try
+  end repeat
+end tell
+EOF
+
+defaults write com.apple.Terminal "Startup Window Settings" -string "$PROFILE_NAME"
+ok "Terminal profile '$PROFILE_NAME' imported and set as default"
+
+# ─── Step 7: Summary ─────────────────────────────────────────────────────────
 echo ""
 printf "\033[1;32m✔ Terminal setup complete!\033[0m\n"
 echo ""
 echo "Post-setup steps:"
-echo "  1. Set your terminal font to 'FiraCode Nerd Font' (or any Nerd Font)"
-echo "  2. Run: source ~/.zshrc"
-echo "  3. Open tmux and verify prefix (Ctrl-a) works"
-echo "  4. Run: neofetch"
+echo "  1. Run: source ~/.zshrc"
+echo "  2. Open tmux and verify prefix (Ctrl-a) works"
+echo "  3. Run: neofetch"
 echo ""

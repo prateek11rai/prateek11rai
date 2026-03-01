@@ -9,8 +9,9 @@ One-script setup for a fully configured Mac terminal environment.
 | **Homebrew** | Official installer | — |
 | **Starship** | `brew install starship` | Nerd Font Symbols preset (generated via `starship preset`) |
 | **Tmux** | `brew install tmux` | Custom config (Ctrl-a prefix, mouse, TPM plugins) |
-| **Neofetch** | `brew install neofetch` | Default (auto-generated on first run) |
+| **Neofetch** | `brew install neofetch` | Custom config + ASCII art (`configs/neofetch.conf`, `configs/neofetch-ascii.txt`) |
 | **FiraCode Nerd Font** | `brew install --cask font-fira-code-nerd-font` | — |
+| **Terminal Profile** | Imported from `configs/SanjiBasic.terminal` | Set as default (font, colors, opacity, cursor, etc.) |
 
 Starship shell init is appended to `~/.zshrc` if not already present. Homebrew handles `.zprofile` automatically.
 
@@ -32,10 +33,9 @@ The script is **idempotent** — safe to re-run. It skips already-installed pack
 
 ## Post-Setup
 
-1. **Set terminal font** — Open your terminal settings and set the font to `FiraCode Nerd Font` (required for Starship symbols)
-2. **Reload shell** — `source ~/.zshrc`
-3. **Verify tmux** — Open `tmux`, confirm `Ctrl-a` is the prefix
-4. **Run neofetch** — Should display system info
+1. **Reload shell** — `source ~/.zshrc`
+2. **Verify tmux** — Open `tmux`, confirm `Ctrl-a` is the prefix
+3. **Run neofetch** — Should display system info
 
 ## Corporate MDM (Manual)
 
@@ -54,6 +54,7 @@ export NODE_EXTRA_CA_CERTS="/Library/Application Support/ns_cert/nscacert_combin
 
 Existing configs are backed up before overwriting:
 ```
-~/.config/starship.toml     -> ~/.config/starship.toml.backup.20260228_143000
-~/.config/tmux/tmux.conf    -> ~/.config/tmux/tmux.conf.backup.20260228_143000
+~/.config/starship.toml        -> ~/.config/starship.toml.backup.20260228_143000
+~/.config/tmux/tmux.conf       -> ~/.config/tmux/tmux.conf.backup.20260228_143000
+~/.config/neofetch/config.conf -> ~/.config/neofetch/config.conf.backup.20260228_143000
 ```
