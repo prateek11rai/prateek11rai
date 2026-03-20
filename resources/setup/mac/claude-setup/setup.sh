@@ -146,6 +146,29 @@ else
   ok "Created .claude/CLAUDE.md symlink → ../.agents/AGENTS.md"
 fi
 
+# .claude/settings.json → ../.agents/settings.json symlink
+VAULT_SETTINGS="$VAULT_CLAUDE_DIR/settings.json"
+AGENTS_SETTINGS="$AGENTS_DIR/settings.json"
+
+if [ ! -f "$AGENTS_SETTINGS" ]; then
+  src="$SCAFFOLD_DIR/.agents/settings.json"
+  if [ -f "$src" ]; then
+    cp "$src" "$AGENTS_SETTINGS"
+    ok "Created .agents/settings.json"
+  fi
+fi
+
+if [ -L "$VAULT_SETTINGS" ]; then
+  ok ".claude/settings.json symlink already exists"
+elif [ -f "$VAULT_SETTINGS" ]; then
+  rm "$VAULT_SETTINGS"
+  ln -s ../.agents/settings.json "$VAULT_SETTINGS"
+  ok "Replaced .claude/settings.json with symlink → ../.agents/settings.json"
+else
+  ln -s ../.agents/settings.json "$VAULT_SETTINGS"
+  ok "Created .claude/settings.json symlink → ../.agents/settings.json"
+fi
+
 # Remove stale root-level CLAUDE.md if it exists
 if [ -f "$VAULT_PATH/CLAUDE.md" ] || [ -L "$VAULT_PATH/CLAUDE.md" ]; then
   rm "$VAULT_PATH/CLAUDE.md"
