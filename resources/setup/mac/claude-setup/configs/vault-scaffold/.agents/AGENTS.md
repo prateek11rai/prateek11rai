@@ -44,6 +44,9 @@ _templates/     Obsidian Templater templates
 - When creating plans, use descriptive names that reflect the work
 - When creating ADRs, scan existing ones to get the next number
 
+### Vault Sync
+- After finishing vault writes, commit and push changes in this repo
+
 ## Active Context
 <!-- Update this section at the start of each session -->
 - Current focus: (update me)
