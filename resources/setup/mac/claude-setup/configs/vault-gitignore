@@ -1,0 +1,17 @@
+# Obsidian workspace (machine-specific, causes merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-*.json
+.obsidian/cache
+
+# Obsidian trash
+.trash/
+
+# Plugin volatile state
+.obsidian/plugins/*/hotkeys.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Smart Connections cache (regenerated per machine)
+.smart-connections/
