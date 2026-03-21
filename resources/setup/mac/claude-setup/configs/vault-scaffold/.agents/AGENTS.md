@@ -2,6 +2,26 @@
 
 This is the Vegapunk Obsidian vault — the centralized knowledge archive for all Claude Code activity.
 
+## Agent Permissions
+
+Agents have **full access** to this vault repository:
+- **[GRANTED]** Create, edit, and delete files in any vault folder
+- **[GRANTED]** `git add`, `git commit`, and `git push` to `main` — no PR required
+- **[GRANTED]** Create new folders under the vault structure when needed
+
+All git permissions are pre-configured in `.agents/settings.json`. Do not ask for confirmation on vault writes or git operations — just do them.
+
+## Save-Immediately Rule
+
+**[MUST]** When you produce a substantial artifact (RCA, plan, ADR, analysis, investigation, meeting notes, design doc), write it to this vault **immediately** — do NOT defer to session end.
+
+Rationale: Claude Code sessions can die from context corruption at any time. If the artifact only exists in conversation history, it is lost. Writing to vault + commit + push makes it durable.
+
+**After every vault write:**
+```bash
+cd <vault-path> && git add -A && git commit -m "vault: <brief description>" && git push
+```
+
 ## Vault Structure
 
 ```
@@ -11,7 +31,7 @@ This is the Vegapunk Obsidian vault — the centralized knowledge archive for al
 03-plans/       Named plans from Claude sessions
 04-decisions/   ADRs and architecture decision records
 05-projects/    Per-project context folders
-06-rca/        RCA analysis documents
+06-rca/         RCA analysis documents
 07-memory/      Promoted memory dumps from Claude sessions
 08-meetings/    Meeting notes
 09-archive/     Completed/retired items
@@ -25,6 +45,7 @@ _templates/     Obsidian Templater templates
 - Weekly plans: `02-weekly/YYYY-WXX.md` (ISO week number)
 - Plans: `03-plans/descriptive-kebab-name.md` (NEVER use UUIDs or dates as primary name)
 - ADRs: `04-decisions/ADR-NNN-short-title.md` (auto-incrementing)
+- RCAs: `06-rca/YYYY-MM-DD-short-title.md`
 - Meetings: `08-meetings/YYYY-MM-DD-meeting-title.md`
 
 ### Linking
@@ -46,6 +67,7 @@ _templates/     Obsidian Templater templates
 
 ### Vault Sync
 - After finishing vault writes, commit and push changes in this repo
+- Use concise commit messages prefixed with `vault:`
 
 ## Active Context
 <!-- Update this section at the start of each session -->
