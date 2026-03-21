@@ -29,8 +29,9 @@ When you produce a substantial artifact (RCA, plan, ADR, analysis, meeting notes
    Vault path: $VAULT_PATH
    Folder map: 03-plans/ 04-decisions/ 06-rca/ 07-memory/ 08-meetings/
 2. Use the vault's naming conventions (see $VAULT_PATH/.agents/AGENTS.md).
-3. After writing, commit and push to main:
+3. After writing, commit and push using this EXACT pattern (required for auto-approval):
    cd $VAULT_PATH && git add -A && git commit -m "vault: <brief description>" && git push
+   IMPORTANT: Always use "cd $VAULT_PATH && git" as a single command — never bare "git" or separate "cd".
 4. Context corruption can destroy unsaved work. Save early, save often.
 </user-prompt-submit-hook>
 EOF

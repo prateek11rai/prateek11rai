@@ -294,6 +294,7 @@ info "Adding vault Write/Edit permissions to global settings..."
 
 WRITE_PERM="Write(//${VAULT_PATH}/**)"
 EDIT_PERM="Edit(//${VAULT_PATH}/**)"
+GIT_PERM="Bash(cd ${VAULT_PATH} && git *)"
 
 python3 -c "
 import json
@@ -301,6 +302,7 @@ import json
 settings_path = '$SETTINGS_FILE'
 write_perm = '$WRITE_PERM'
 edit_perm = '$EDIT_PERM'
+git_perm = '$GIT_PERM'
 
 try:
     with open(settings_path, 'r') as f:
@@ -311,7 +313,7 @@ except (FileNotFoundError, json.JSONDecodeError):
 perms = settings.setdefault('permissions', {})
 allow = perms.setdefault('allow', [])
 
-for perm in [write_perm, edit_perm]:
+for perm in [write_perm, edit_perm, git_perm]:
     if perm not in allow:
         allow.insert(0, perm)
 
@@ -319,7 +321,7 @@ with open(settings_path, 'w') as f:
     json.dump(settings, f, indent=2)
     f.write('\n')
 "
-ok "Vault Write/Edit permissions added to $SETTINGS_FILE"
+ok "Vault Write/Edit/Git permissions added to $SETTINGS_FILE"
 
 # ─── Step 6: Obsidian plugin recommendations ────────────────────────────────
 info "Checking Obsidian plugins..."

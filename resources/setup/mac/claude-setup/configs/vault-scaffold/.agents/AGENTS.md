@@ -17,10 +17,11 @@ All git permissions are pre-configured in `.agents/settings.json`. Do not ask fo
 
 Rationale: Claude Code sessions can die from context corruption at any time. If the artifact only exists in conversation history, it is lost. Writing to vault + commit + push makes it durable.
 
-**After every vault write:**
+**After every vault write, use this exact pattern (permissions are scoped to it):**
 ```bash
 cd <vault-path> && git add -A && git commit -m "vault: <brief description>" && git push
 ```
+**IMPORTANT:** Always prefix vault git commands with `cd <vault-path> &&` — this is required for auto-approval. Do NOT use bare `git` commands or `cd` to the vault in a separate step.
 
 ## Vault Structure
 
