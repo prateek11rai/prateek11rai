@@ -209,7 +209,22 @@ VAULT_PATH_CONFIG="$CLAUDE_DIR/obsidian-vault-path"
 echo "$VAULT_PATH" > "$VAULT_PATH_CONFIG"
 ok "Vault path saved to $VAULT_PATH_CONFIG"
 
-# ─── Step 5: Install hooks ──────────────────────────────────────────────────
+# ─── Step 5a: Status line script ───────────────────────────────────────────
+info "Installing Claude Code status line script..."
+
+STATUSLINE_SRC="$CONFIGS_DIR/statusline-command.sh"
+STATUSLINE_DST="$CLAUDE_DIR/statusline-command.sh"
+
+if [ -f "$STATUSLINE_SRC" ]; then
+  backup_if_exists "$STATUSLINE_DST"
+  cp "$STATUSLINE_SRC" "$STATUSLINE_DST"
+  chmod +x "$STATUSLINE_DST"
+  ok "Installed statusline-command.sh -> $STATUSLINE_DST"
+else
+  warn "statusline-command.sh not found in configs"
+fi
+
+# ─── Step 5b: Install hooks ─────────────────────────────────────────────────
 info "Installing Claude Code hooks..."
 
 HOOKS_DIR="$CLAUDE_DIR/hooks"
@@ -289,7 +304,7 @@ with open('$SETTINGS_FILE', 'w') as f:
   fi
 fi
 
-# ─── Step 5b: Vault path-scoped permissions ────────────────────────────────
+# ─── Step 5c: Vault path-scoped permissions ────────────────────────────────
 info "Adding vault Write/Edit permissions to global settings..."
 
 WRITE_PERM="Write(//${VAULT_PATH}/**)"
@@ -322,6 +337,31 @@ with open(settings_path, 'w') as f:
     f.write('\n')
 "
 ok "Vault Write/Edit/Git permissions added to $SETTINGS_FILE"
+
+# ─── Step 5d: Status line in settings.json ─────────────────────────────────
+info "Registering status line in settings.json..."
+
+python3 -c "
+import json
+
+settings_path = '$SETTINGS_FILE'
+
+try:
+    with open(settings_path, 'r') as f:
+        settings = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    settings = {}
+
+if 'statusLine' not in settings:
+    settings['statusLine'] = {
+        'type': 'command',
+        'command': 'bash $CLAUDE_DIR/statusline-command.sh'
+    }
+    with open(settings_path, 'w') as f:
+        json.dump(settings, f, indent=2)
+        f.write('\n')
+"
+ok "Status line registered in settings.json"
 
 # ─── Step 6: Obsidian plugin recommendations ────────────────────────────────
 info "Checking Obsidian plugins..."
@@ -370,6 +410,7 @@ echo "What was set up:"
 echo "  Vault:       $VAULT_PATH"
 echo "  AGENTS.md:   $VAULT_PATH/.agents/AGENTS.md (source of truth)"
 echo "  CLAUDE.md:   $USER_CLAUDE_MD (copied from user-claude.md)"
+echo "  Status line: $CLAUDE_DIR/statusline-command.sh"
 echo "  Vault path:  $VAULT_PATH_CONFIG"
 echo "  Hooks:       $HOOKS_DIR/"
 echo ""

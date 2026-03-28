@@ -10,6 +10,7 @@ Bootstraps the [Vegapunk](https://github.com/prateek11rai/vegapunk) Obsidian vau
 | Vault | Clones the vegapunk repo (or pulls if exists) |
 | Scaffold | Creates numbered folder structure + templates |
 | CLAUDE.md | Installs user-level preferences to `~/.claude/CLAUDE.md` |
+| Status Line | Installs `statusline-command.sh` for Claude Code bottom bar |
 | Hooks | Installs vault-write-gate and vault-reminder hooks |
 | Plugins | Checks for recommended Obsidian plugins |
 | Commit | Commits and pushes the scaffold |
