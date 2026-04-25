@@ -5,9 +5,10 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIGS_DIR="$SCRIPT_DIR/configs"
 TIMESTAMP="$(date +%Y%m%d_%H%M%S)"
 
-VAULT_REPO="https://github.com/prateek11rai/vegapunk.git"
 VAULT_DEFAULT_PATH="$HOME/github/prateek11rai/vegapunk"
+VAULT_DEFAULT_REPO="https://github.com/prateek11rai/vegapunk.git"
 CLAUDE_DIR="$HOME/.claude"
+USER_NAME="$(git config user.name 2>/dev/null || echo 'User')"
 
 info()  { printf "\033[1;34m[INFO]\033[0m  %s\n" "$1"; }
 ok()    { printf "\033[1;32m[OK]\033[0m    %s\n" "$1"; }
@@ -46,7 +47,10 @@ fi
 
 # ─── Step 1: Clone or locate vault ──────────────────────────────────────────
 VAULT_PATH="${1:-$VAULT_DEFAULT_PATH}"
+VAULT_REPO="${2:-$VAULT_DEFAULT_REPO}"
 info "Vault path: $VAULT_PATH"
+info "Vault repo: $VAULT_REPO"
+info "User: $USER_NAME"
 
 if [ -d "$VAULT_PATH/.git" ]; then
   ok "Vault repo already exists at $VAULT_PATH"
@@ -64,16 +68,11 @@ info "Scaffolding vault folder structure..."
 
 SCAFFOLD_DIR="$CONFIGS_DIR/vault-scaffold"
 FOLDERS=(
-  "00-inbox"
-  "01-daily"
-  "02-weekly"
-  "03-plans"
-  "04-decisions"
-  "05-projects"
-  "06-rca"
-  "07-memory"
-  "08-meetings"
-  "09-archive"
+  "decisions"
+  "investigations"
+  "knowledge"
+  "references"
+  "maps"
   "_templates"
 )
 
@@ -191,16 +190,12 @@ mkdir -p "$CLAUDE_DIR"
 
 USER_CLAUDE_MD="$CLAUDE_DIR/CLAUDE.md"
 if [ -L "$USER_CLAUDE_MD" ]; then
-  # Replace stale symlink with the real file
   rm "$USER_CLAUDE_MD"
-  cp "$CONFIGS_DIR/user-claude.md" "$USER_CLAUDE_MD"
-  ok "Replaced symlink with copied ~/.claude/CLAUDE.md"
 elif [ -f "$USER_CLAUDE_MD" ]; then
-  ok "User-level CLAUDE.md already exists"
-else
-  cp "$CONFIGS_DIR/user-claude.md" "$USER_CLAUDE_MD"
-  ok "Created ~/.claude/CLAUDE.md"
+  backup_if_exists "$USER_CLAUDE_MD"
 fi
+sed "s|__USER_NAME__|$USER_NAME|g" "$CONFIGS_DIR/user-claude.md" > "$USER_CLAUDE_MD"
+ok "Installed ~/.claude/CLAUDE.md (vault config for $USER_NAME)"
 
 # ─── Step 4: Vault path config ──────────────────────────────────────────────
 info "Persisting vault path..."
@@ -363,6 +358,45 @@ if 'statusLine' not in settings:
 "
 ok "Status line registered in settings.json"
 
+# ─── Step 5e: Vault auto-sync agent (launchd) ────────────────────────────────
+info "Installing vault auto-sync agent..."
+
+AUTOSYNC_SCRIPT_SRC="$CONFIGS_DIR/vault-autosync.sh"
+AUTOSYNC_SCRIPT_DST="$CLAUDE_DIR/vault-autosync.sh"
+PLIST_SRC="$CONFIGS_DIR/com.claude.vault-autosync.plist"
+PLIST_DST="$CLAUDE_DIR/com.claude.vault-autosync.plist"
+PLIST_LINK="$HOME/Library/LaunchAgents/com.claude.vault-autosync.plist"
+AGENT_LABEL="com.claude.vault-autosync"
+
+if [ -f "$AUTOSYNC_SCRIPT_SRC" ]; then
+  cp "$AUTOSYNC_SCRIPT_SRC" "$AUTOSYNC_SCRIPT_DST"
+  chmod +x "$AUTOSYNC_SCRIPT_DST"
+  ok "Installed vault-autosync.sh -> $AUTOSYNC_SCRIPT_DST"
+else
+  warn "vault-autosync.sh not found in configs"
+fi
+
+if [ -f "$PLIST_SRC" ]; then
+  # Replace placeholder with actual path
+  sed "s|__CLAUDE_DIR__|$CLAUDE_DIR|g" "$PLIST_SRC" > "$PLIST_DST"
+  ok "Installed plist -> $PLIST_DST"
+
+  # Symlink into LaunchAgents
+  mkdir -p "$HOME/Library/LaunchAgents"
+  if [ -L "$PLIST_LINK" ] || [ -f "$PLIST_LINK" ]; then
+    rm "$PLIST_LINK"
+  fi
+  ln -s "$PLIST_DST" "$PLIST_LINK"
+  ok "Symlinked plist -> $PLIST_LINK"
+
+  # Unload old agent if running, then load new one
+  launchctl bootout "gui/$(id -u)/$AGENT_LABEL" 2>/dev/null || true
+  launchctl bootstrap "gui/$(id -u)" "$PLIST_LINK" 2>/dev/null || true
+  ok "Vault auto-sync agent loaded (runs every 15 minutes)"
+else
+  warn "com.claude.vault-autosync.plist not found in configs"
+fi
+
 # ─── Step 6: Obsidian plugin recommendations ────────────────────────────────
 info "Checking Obsidian plugins..."
 
@@ -390,10 +424,9 @@ info "Committing scaffold to vault repo..."
 cd "$VAULT_PATH"
 if [ -n "$(git status --porcelain)" ]; then
   git add -A
-  git commit -m "feat: scaffold vegapunk vault structure
+  git commit -m "vault: scaffold knowledge vault structure
 
-Folders: inbox, daily, weekly, plans, decisions, projects,
-rca, memory, meetings, archive, templates
+Folders: decisions, investigations, knowledge, references, maps, templates
 Source of truth: .agents/AGENTS.md (CLAUDE.md is symlink)
 Includes: README.md, .gitignore, templates"
   git push 2>/dev/null || warn "Could not push (offline?)"
@@ -404,20 +437,22 @@ fi
 
 # ─── Step 8: Summary ────────────────────────────────────────────────────────
 echo ""
-printf "\033[1;32m✔ Claude Code + Vegapunk vault setup complete!\033[0m\n"
+printf "\033[1;32m✔ Claude Code + vault setup complete!\033[0m\n"
 echo ""
 echo "What was set up:"
 echo "  Vault:       $VAULT_PATH"
 echo "  AGENTS.md:   $VAULT_PATH/.agents/AGENTS.md (source of truth)"
-echo "  CLAUDE.md:   $USER_CLAUDE_MD (copied from user-claude.md)"
+echo "  CLAUDE.md:   $USER_CLAUDE_MD (vault routing rules)"
 echo "  Status line: $CLAUDE_DIR/statusline-command.sh"
 echo "  Vault path:  $VAULT_PATH_CONFIG"
 echo "  Hooks:       $HOOKS_DIR/"
+echo "  Auto-sync:   $CLAUDE_DIR/vault-autosync.sh (launchd, every 15 min)"
 echo ""
 echo "Post-setup steps:"
 echo "  1. Open the vault in Obsidian (File > Open Vault > $VAULT_PATH)"
 echo "  2. Install recommended plugins from Community Plugins"
 echo "  3. Verify hooks: claude config list (check hooks section)"
+echo "  4. Verify auto-sync: launchctl list | grep claude.vault"
 echo ""
 echo "Recommended Obsidian plugins to install:"
 echo "  - Templater         (advanced template engine)"

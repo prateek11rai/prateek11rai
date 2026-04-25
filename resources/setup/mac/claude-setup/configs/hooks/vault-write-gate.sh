@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Hook: PreToolUse — blocks .md file writes outside the vault
-# Ensures all documentation routes through the Vegapunk vault
+# Ensures all documentation routes through the knowledge vault
 
 VAULT_PATH_FILE="$HOME/.claude/obsidian-vault-path"
 
@@ -23,8 +23,9 @@ if [[ "$FILE_PATH" == *"/.claude/"* ]]; then
   exit 0
 fi
 
-# Allow CLAUDE.md files anywhere (project-level config)
-if [[ "$(basename "$FILE_PATH")" == "CLAUDE.md" ]]; then
+# Allow CLAUDE.md and AGENTS.md files anywhere (project-level config)
+BASENAME="$(basename "$FILE_PATH")"
+if [[ "$BASENAME" == "CLAUDE.md" || "$BASENAME" == "AGENTS.md" ]]; then
   exit 0
 fi
 
@@ -37,7 +38,7 @@ if [ -f "$VAULT_PATH_FILE" ]; then
 fi
 
 # Block all other .md writes — remind to use the vault
-echo "BLOCK: Markdown files should be written to the Vegapunk vault."
+echo "BLOCK: Markdown files should be written to the knowledge vault."
 echo "Vault path: $(cat "$VAULT_PATH_FILE" 2>/dev/null || echo 'not configured')"
 echo "Route this content to the appropriate vault folder instead."
 exit 2
