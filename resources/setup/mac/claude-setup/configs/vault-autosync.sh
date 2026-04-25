@@ -2,9 +2,13 @@
 # Auto-commit and push vault changes — run by launchd every 15 minutes
 set -euo pipefail
 
+LOG_PREFIX="[vault-autosync $(date +%Y-%m-%dT%H:%M:%S)]"
+
 VAULT_PATH="$(cat "$HOME/.claude/obsidian-vault-path" 2>/dev/null || echo "")"
-[ -z "$VAULT_PATH" ] && exit 0
-[ ! -d "$VAULT_PATH/.git" ] && exit 0
+if [ -z "$VAULT_PATH" ] || [ ! -d "$VAULT_PATH/.git" ]; then
+  echo "$LOG_PREFIX vault not found at '$VAULT_PATH', skipping"
+  exit 0
+fi
 
 cd "$VAULT_PATH"
 
@@ -17,5 +21,8 @@ git add -A
 # Only commit if there are staged changes
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -m "vault: auto-sync $(date +%Y-%m-%dT%H:%M)"
-  git push 2>/dev/null || true
+  git push 2>/dev/null || echo "$LOG_PREFIX push failed (offline?)"
+  echo "$LOG_PREFIX committed and pushed"
+else
+  echo "$LOG_PREFIX no changes"
 fi
