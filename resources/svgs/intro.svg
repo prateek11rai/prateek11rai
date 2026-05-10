@@ -12,28 +12,28 @@
   <text x="20" y="70" fill="#ffffff" font-family="monospace" font-size="16">$ say hi!</text>
   
   <!-- ASCII Art - Waving Hand (left side) -->
-  <text x="30" y="100" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⣠⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣄⠀⠀⠀⠀</text>
-  <text x="30" y="110" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠸⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣇⠀⠀⠀</text>
-  <text x="30" y="120" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⢀⣤⣤⣼⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣾⣿⣿⣿⣿⣿⣿⣷⣶⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣤⣤⡀</text>
-  <text x="30" y="130" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⢀⣴⡞⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣦⡀⠀⠀⠀⠀⢀⣴⣶⣿⣿⣿⣿⣿⣿⣿</text>
-  <text x="30" y="140" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠙⠿⣿⡿⠏⢿⣿⣿⣿⣿⣦⣀⠀⣴⣿⠟⣤⡿⢁⣿⢛⣿⣿⣿⣿⣿⣿⣿⣿⡈⢿⣤⡙⣿⣦⡀⢀⣰⣿⣿⣿⣿⡿⠙⢿⣿⠿⠋</text>
+  <text x="30" y="100" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⣠⣤⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣄⠀⠀⠀⠀</text>
+  <text x="30" y="110" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠸⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣇⠀⠀⠀</text>
+  <text x="30" y="120" fill="#ffd93d" font-family="monospace" font-size="8" white-space="pre">⢀⣤⣤⣼⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣾⣿⣿⣿⣿⣿⣿⣷⣶⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣤⣤⡀</text>
+  <text x="30" y="130" fill="#ffd93d" font-family="monospace" font-size="8" white-space="pre">⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⢀⣴⡞⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣦⡀⠀⠀⠀⠀⢀⣴⣶⣿⣿⣿⣿⣿⣿⣿</text>
+  <text x="30" y="140" fill="#ffd93d" font-family="monospace" font-size="8" white-space="pre">⠙⠿⣿⡿⠏⢿⣿⣿⣿⣿⣦⣀⠀⣴⣿⠟⣤⡿⢁⣿⢛⣿⣿⣿⣿⣿⣿⣿⣿⡈⢿⣤⡙⣿⣦⡀⢀⣰⣿⣿⣿⣿⡿⠙⢿⣿⠿⠋</text>
   <text x="30" y="150" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⠃⠺⠛⠟⠻⠛⠓⠛⠛⠛⠛⠛⠛⠛⠛⠛⠟⠛⠟⠆⠟⠛⠚⠟⠳⠘⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀</text>
   <text x="30" y="160" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⡏⠀⡀⠂⠌⠀⠌⠠⠁⠌⠠⠁⠌⠠⠁⠌⠐⡀⠡⠀⠂⠈⠐⠀⢂⠐⠀⢸⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀</text>
   <text x="30" y="170" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⣀⣁⣐⣈⣀⣀⣐⣀⣀⣂⣐⣀⣈⣀⣂⣀⣐⣀⣂⣁⣀⣁⣂⣀⣁⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀</text>
-  <text x="30" y="180" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠇⠀⠀⠀</text>
-  <text x="30" y="190" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⡿⠋⠉⠛⠻⣿⣿⣿⣿⣿⣿⠟⠉⠉⠛⠿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="200" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⠁⠀⠀⠀⠀⠀⠹⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="210" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⠀⠀⠀⠀⠀⠀⢠⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="220" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢻⣿⣦⣀⣀⣀⣠⣴⣿⡿⠿⣿⣷⣄⣀⣀⣀⣤⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="230" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣇⠀⠀⣨⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="240" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⢰⣶⣬⣍⢙⣛⠛⠙⠋⠙⣉⡉⣭⣴⣾⡄⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="250" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡇⣍⡛⠿⠏⣷⣿⣿⣿⢸⣿⣿⣧⢿⠿⠟⣁⢻⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="260" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⡇⠾⣿⣷⣆⣤⣭⣭⣍⢨⣭⣭⣥⠐⣶⣿⡟⢸⣿⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="270" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢠⣴⣾⣿⣦⣼⣿⣿⣿⣿⠟⠃⣷⣬⣙⡛⠻⠿⣿⣿⢸⣿⡿⠿⢘⣋⣥⣶⠘⠻⣿⣿⣿⣿⣷⣴⣾⣿⣶⡄⠀⠀⠀⠀</text>
-  <text x="30" y="280" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢺⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⢻⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⡏⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀</text>
-  <text x="30" y="290" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠙⠛⢻⣿⣿⣿⣿⡆⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⢠⣿⣿⣿⣿⡟⠛⠋⠁⠀⠀⠀⠀</text>
-  <text x="30" y="300" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠈⠿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠁⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀</text>
-  <text x="30" y="310" fill="#ff6b6b" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠚⠋⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="180" fill="#ffd93d" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠇⠀⠀⠀</text>
+  <text x="30" y="190" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⡿⠋⠉⠛⠻⣿⣿⣿⣿⣿⣿⠟⠉⠉⠛⠿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="200" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⠁⠀⠀⠀⠀⠀⠹⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="210" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⠀⠀⠀⠀⠀⠀⢠⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="220" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢻⣿⣦⣀⣀⣀⣠⣴⣿⡿⠿⣿⣷⣄⣀⣀⣀⣤⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="230" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣇⠀⠀⣨⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="240" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⢰⣶⣬⣍⢙⣛⠛⠙⠋⠙⣉⡉⣭⣴⣾⡄⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="250" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡇⣍⡛⠿⠏⣷⣿⣿⣿⢸⣿⣿⣧⢿⠿⠟⣁⢻⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="260" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⡇⠾⣿⣷⣆⣤⣭⣭⣍⢨⣭⣭⣥⠐⣶⣿⡟⢸⣿⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="270" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢠⣴⣾⣿⣦⣼⣿⣿⣿⣿⠟⠃⣷⣬⣙⡛⠻⠿⣿⣿⢸⣿⡿⠿⢘⣋⣥⣶⠘⠻⣿⣿⣿⣿⣷⣴⣾⣿⣶⡄⠀⠀⠀⠀</text>
+  <text x="30" y="280" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⢺⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⢻⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⡏⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀</text>
+  <text x="30" y="290" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠙⠛⢻⣿⣿⣿⣿⡆⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⢠⣿⣿⣿⣿⡟⠛⠋⠁⠀⠀⠀⠀</text>
+  <text x="30" y="300" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠈⠿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠁⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀</text>
+  <text x="30" y="310" fill="#e0e0e0" font-family="monospace" font-size="8" white-space="pre">⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠚⠋⠀⠀⠀⠀⠀⠀⠀⠀</text>
   
   <!-- System Information (right side) -->
   <text x="400" y="100" fill="#00ff00" font-family="monospace" font-size="16" font-weight="bold">Hi, visitor!</text>
@@ -49,16 +49,16 @@
   <text x="500" y="200" fill="#ffffff" font-family="monospace" font-size="14">B.Tech - CSE @Thapar</text>
   
   <text x="400" y="225" fill="#00ff00" font-family="monospace" font-size="14">Occupation</text>
-  <text x="500" y="225" fill="#ffffff" font-family="monospace" font-size="14">Engineer @Atlan</text>
+  <text x="500" y="225" fill="#ffffff" font-family="monospace" font-size="14">Software Engineer</text>
   
   <text x="400" y="250" fill="#00ff00" font-family="monospace" font-size="14">Email</text>
   <text x="500" y="250" fill="#ffffff" font-family="monospace" font-size="14">prateek11rai@protonmail.com</text>
   
   <text x="400" y="275" fill="#00ff00" font-family="monospace" font-size="14">Website</text>
-  <text x="500" y="275" fill="#0066cc" font-family="monospace" font-size="14">prateek11rai.github.io/sanji/</text>
+  <a href="https://prateek11rai.github.io/sanji/" target="_blank"><text x="500" y="275" fill="#0066cc" font-family="monospace" font-size="14" text-decoration="underline">prateek11rai.github.io/sanji/</text></a>
   
   <text x="400" y="300" fill="#00ff00" font-family="monospace" font-size="14">LinkedIn</text>
-  <text x="500" y="300" fill="#0066cc" font-family="monospace" font-size="14">linkedin.com/in/prateek11rai</text>
+  <a href="https://linkedin.com/in/prateek11rai" target="_blank"><text x="500" y="300" fill="#0066cc" font-family="monospace" font-size="14" text-decoration="underline">linkedin.com/in/prateek11rai</text></a>
   
   <!-- <text x="400" y="325" fill="#00ff00" font-family="monospace" font-size="14">Interests</text>
   <text x="500" y="325" fill="#ffffff" font-family="monospace" font-size="14">ML, Web Dev, Open Source</text>
