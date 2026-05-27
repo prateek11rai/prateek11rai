@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prateek Rai — Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* ---------- Page setup ---------- */
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #e9e9ec;
+    }
+
+    .sheet {
+      width: 210mm;
+      height: 296mm;
+      padding: 9mm 12mm;
+      background: #fff;
+      margin: 12px auto;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.18);
+      overflow: hidden;
+      page-break-after: avoid;
+    }
+
+    @media print {
+      html, body { background: #fff; }
+      .sheet { margin: 0; box-shadow: none; }
+    }
+
+    /* ---------- Uniform body typography ----------
+       All content text shares one size, one line-height,
+       one font. Bolds share one weight. */
+    body,
+    .contact,
+    .section-title,
+    .entry-row,
+    .entry-row .left,
+    .entry-row .right,
+    .entry-row.sub .left,
+    .entry-row.sub .right,
+    .skill-line,
+    ul, li, p {
+      font-family: "Times New Roman", Times, "Liberation Serif", serif;
+      font-size: 10pt;
+      line-height: 1.2;
+      color: #000;
+    }
+
+    /* ---------- The single oversized element: the name ---------- */
+    .name {
+      font-family: "Times New Roman", Times, "Liberation Serif", serif;
+      text-align: center;
+      font-size: 20pt;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 1pt 0;
+    }
+
+    /* ---------- Section headings ----------
+       Same size as body. Bold + uppercase + underline = visual distinction. */
+    .section-title {
+      font-weight: 700;
+      text-transform: uppercase;
+      border-bottom: 0.6pt solid #000;
+      margin: 8pt 0 4pt 0;
+      padding-bottom: 0.5pt;
+    }
+
+    /* ---------- Entry rows ---------- */
+    .contact { text-align: center; margin: 0 0 2pt 0; }
+
+    .entry { margin-top: 5pt; }
+
+    .entry-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8pt;
+    }
+
+    .entry-row .left,
+    .entry-row .right { font-weight: 700; }
+    .entry-row .right { text-align: right; }
+
+    .entry-row.sub {
+      margin-top: 3pt;
+    }
+
+    .entry-row.sub .left,
+    .entry-row.sub .right {
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    /* ---------- Inline metric emphasis ----------
+       Lighter than the 700 heading bold; draws the eye
+       to scale / impact numbers in body text. */
+    .num { font-weight: 600; }
+
+    /* ---------- Lists ---------- */
+    ul {
+      list-style-type: disc;
+      margin: 1pt 0 1pt 16pt;
+      padding: 0;
+    }
+
+    li {
+      margin: 0 0 0.5pt 0;
+      text-align: left;
+    }
+
+    .skill-line { margin: 0; }
+
+    /* ---------- Links: uniform across all states ---------- */
+    a,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active,
+    a:focus {
+      color: #0563C1;
+      text-decoration: underline;
+      font-weight: inherit;
+      background: transparent;
+    }
+
+    /* ---------- Pre-print reminder (screen only) ---------- */
+    .redaction-notice {
+      text-align: center;
+      font-size: 9pt;
+      font-style: italic;
+      color: #b00020;
+      margin: 0 0 4pt 0;
+    }
+    @media print { .redaction-notice { display: none; } }
+  </style>
+</head>
+<body>
+  <main class="sheet" role="document" aria-label="Resume of Prateek Rai">
+
+    <h1 class="name">Prateek Rai</h1>
+    <!--
+      NOTE: phone and email below are placeholders so this public repo does not
+      leak real contact info. Replace the +91 XXXXX XXXXX and the example.com
+      address with real values before printing the PDF, then revert before
+      committing again. The on-screen banner below also reminds you of this;
+      it is hidden in print via @media print { display: none; }.
+    -->
+    <p class="contact">
+      Kolkata, West Bengal |
+      <a href="https://www.linkedin.com/in/prateek11rai/">LinkedIn</a> |
+      +91 XXXXX XXXXX |
+      <a href="mailto:replace-before-print@example.com">replace-before-print@example.com</a> |
+      <a href="https://github.com/prateek11rai">GitHub</a>
+    </p>
+    <p class="redaction-notice">
+      Phone and email above are placeholders &mdash; replace with real values before exporting the PDF. This notice is hidden in print.
+    </p>
+
+    <div class="section-title">Skills</div>
+    <div class="skill-line">Python, TypeScript, SQL, Vue.js, FastAPI, Pydantic, Temporal, Argo Workflows, asyncio, Snowflake, BigQuery, PostgreSQL, Apache Atlas, Apache Iceberg, Parquet, Polars, Spark, Kafka, Apache Airflow, AWS Glue, AWS (Athena, Kinesis, S3, EC2, IAM), GCP, Docker, Kubernetes, Helm, Terraform, git, GitHub Actions, Claude Code.</div>
+
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">Thapar Institute of Engineering and Technology</span><span class="right">Patiala, Punjab</span></div>
+      <div class="entry-row sub"><span class="left">BE in Computer Science and Engineering (CGPA: <span class="num">8.84</span>)</span><span class="right">Graduation Date: June 2023</span></div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">Army Public School</span><span class="right">Ambala Cantt, Haryana</span></div>
+      <div class="entry-row sub"><span class="left">High School [CBSE] (Percentage: <span class="num">94.2%</span>)</span><span class="right">Graduation Date: June 2018</span></div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">Army Public School</span><span class="right">Ambala Cantt, Haryana</span></div>
+      <div class="entry-row sub"><span class="left">10<sup>th</sup> standard [CBSE] (CGPA: <span class="num">10</span>)</span><span class="right">Graduation Date: June 2016</span></div>
+    </div>
+
+    <div class="section-title">Work Experience</div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">Atlan</span><span class="right">Remote</span></div>
+      <div class="entry-row sub"><span class="left">Senior Software Engineer &ndash; I</span><span class="right">Apr 2024 &ndash; Present</span></div>
+      <ul>
+        <li>Engineered and delivered multiple production data-source connectors and platform services for a metadata catalog product, owning architecture, implementation and release end-to-end and earning a promotion within <span class="num">2 years</span>.</li>
+        <li>Led the construction of reusable intermediary services and SDK components for partner data integrations, designing a generic ingestion pipeline, a standardised asset model and a unified connector framework adopted across <span class="num">10+</span> downstream engineering teams.</li>
+        <li>Re-architected a high-traffic enterprise data connector by migrating it from Argo to Temporal on a next-generation in-house SDK, cutting peak memory consumption by <span class="num">13x</span> and eliminating recurring out-of-memory failures through streaming-based extraction and chunk-wise enrichment with graceful fallback.</li>
+        <li>Drove first-response and end-to-end resolution for <span class="num">300+</span> high-impact customer issues across <span class="num">25+</span> Fortune 500 enterprise customers, collaborating cross-functionally with internal engineering teams and external partner organisations to ship <span class="num">5+</span> joint catalog and lineage integrations from preview to general availability.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">BYJU&rsquo;S</span><span class="right">Bangalore, Karnataka</span></div>
+      <div class="entry-row sub"><span class="left">Member of Technical Staff &ndash; 1</span><span class="right">Oct 2023 &ndash; Apr 2024</span></div>
+      <ul>
+        <li>Engineered OLAP pipelines, introducing event triggers for real-time JSON delivery and orchestrating scheduled jobs on Apache Airflow alongside OLTP pipelines on Kafka Connect.</li>
+        <li>Owned and optimized ETL pipelines with Talend and AWS Glue, ensuring a <span class="num">95%</span> success rate in bulk-load jobs and managing the Snowflake data warehouse with Python/SQL tasks, complex role structures, and data masking.</li>
+        <li>Spearheaded Apache Superset implementation for dynamic dashboarding, cutting Snowflake credit usage by <span class="num">10%</span> through a query and cost monitoring dashboard on a Dockerised EC2 deployment.</li>
+      </ul>
+    </div>
+
+    <div class="section-title">Internship Experience</div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">BYJU&rsquo;S</span><span class="right">Bangalore, Karnataka</span></div>
+      <div class="entry-row sub"><span class="left">Intern &ndash; Engineering</span><span class="right">Jan 2023 &ndash; Sep 2023</span></div>
+      <ul>
+        <li>Engineered Spark-based data transfer utilities, managing <span class="num">10+ TB</span> and <span class="num">100M+</span> records across Parquet, CSV, and JSON formats.</li>
+        <li>Streamlined Spark job creation across <span class="num">30+</span> data pipelines using AWS Glue and improved data accessibility for <span class="num">50+</span> datasets through AWS Athena.</li>
+        <li>Collaborated on the Snowflake data warehouse with Python for precise data processing and automation, reducing processing errors by <span class="num">40%</span> across <span class="num">20+</span> data sources.</li>
+      </ul>
+    </div>
+
+    <div class="section-title">Project Work</div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">DocAid</span><span class="right">Patiala, Punjab</span></div>
+      <div class="entry-row sub"><span class="left">IoT wearable with complete software support for hospitals</span><span class="right">Jan 2022 &ndash; Jan 2023</span></div>
+      <ul>
+        <li>Engineered an IoT wearable on Arduino Uno with multi-sensors (pulse, oxygen, temperature, ECG), streaming <span class="num">100 readings/min</span> to a Firebase real-time database and a responsive web app for monitoring up to <span class="num">500 patients</span>.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-row"><span class="left">GitRep Scorer</span><span class="right">Patiala, Punjab</span></div>
+      <div class="entry-row sub"><span class="left">GitHub Repository Scorer</span><span class="right">Jun 2022 &ndash; Jul 2022</span></div>
+      <ul>
+        <li>Developed a GitHub repository rating tool using Python, BeautifulSoup, and TOPSIS analysis across a <span class="num">10,000-repo</span> Kaggle dataset, deployed via Streamlit with <span class="num">90%</span> user satisfaction during testing.</li>
+      </ul>
+    </div>
+
+  </main>
+</body>
+</html>
