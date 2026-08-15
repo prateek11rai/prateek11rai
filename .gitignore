@@ -1,3 +1,7 @@
+# Machine-local Claude Code state — Claude Code manages this; never commit it.
+# Covers this repo's own project settings (root .claude/) at any depth.
+**/.claude/settings.local.json
+
 # macOS
 .DS_Store
 
